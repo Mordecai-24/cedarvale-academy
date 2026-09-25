@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Teacher Dashboard | Cedarvale Academy</title>
+
+    <link rel="stylesheet" href="teacher.css">
+</head>
+
+<body>
+
+    <header class="topbar">
+
+        <div class="topbar__brand">
+            <img
+                src="../assets/logo/logo.png"
+                alt="Cedarvale Academy Logo"
+            >
+
+            <div>
+                <h1>Teacher Portal</h1>
+                <p>Welcome back, Mrs. Jane Kamau</p>
+            </div>
+        </div>
+
+        <div class="topbar__actions">
+            <a href="#">Profile</a>
+
+            <a href="../login/index.html" class="logout">
+                Logout
+            </a>
+        </div>
+
+    </header>
+
+
+    <main class="portal">
+
+        <!-- SIDEBAR -->
+
+        <aside class="sidebar">
+
+            <h2>Teacher Menu</h2>
+
+            <nav class="sidebar__nav">
+
+                <a href="#" class="sidebar__link sidebar__link--active">
+                    Dashboard
+                </a>
+
+                <a href="#" class="sidebar__link">
+                    My Classes
+                </a>
+
+                <a href="#" class="sidebar__link">
+                    Student Results
+                </a>
+
+                <a href="#" class="sidebar__link">
+                    Learning Materials
+                </a>
+
+                <a href="../news/index.html" class="sidebar__link">
+                    News & Events
+                </a>
+
+                <a href="#" class="sidebar__link">
+                    My Profile
+                </a>
+
+            </nav>
+
+        </aside>
+
+
+        <!-- MAIN CONTENT -->
+
+        <section class="dashboard">
+
+            <div class="dashboard__header">
+
+                <div>
+                    <p class="dashboard__label">
+                        Teacher Dashboard
+                    </p>
+
+                    <h2>Welcome back, Mrs. Jane Kamau</h2>
+
+                    <p>
+                        Manage your classes, student results, learning materials
+                        and school activities.
+                    </p>
+                </div>
+
+                <div class="teacher__details">
+                    <p><strong>Staff ID:</strong> TCH/014</p>
+                    <p><strong>Department:</strong> Sciences</p>
+                    <p><strong>Subject:</strong> Mathematics</p>
+                </div>
+
+            </div>
+
+
+            <!-- SUMMARY CARDS -->
+
+            <div class="dashboard__cards">
+
+                <article class="dashboard__card">
+                    <p>Assigned Classes</p>
+                    <h3>3</h3>
+                    <span>Form 2, Form 3, Form 4</span>
+                </article>
+
+                <article class="dashboard__card">
+                    <p>Total Students</p>
+                    <h3>96</h3>
+                    <span>Across all assigned classes</span>
+                </article>
+
+                <article class="dashboard__card">
+                    <p>Materials Uploaded</p>
+                    <h3>24</h3>
+                    <span>Revision notes and worksheets</span>
+                </article>
+
+                <article class="dashboard__card">
+                    <p>Pending Results</p>
+                    <h3>2</h3>
+                    <span>Assessments awaiting entry</span>
+                </article>
+
+            </div>
+
+
+            <!-- TWO COLUMN AREA -->
+
+            <div class="dashboard__grid">
+
+                <!-- CLASSES -->
+
+                <section class="panel">
+
+                    <div class="panel__header">
+                        <h3>My Classes</h3>
+
+                        <a href="#">
+                            View All
+                        </a>
+                    </div>
+
+
+                    <div class="class__item">
+                        <div>
+                            <h4>Form 3 East</h4>
+                            <p>Mathematics</p>
+                        </div>
+
+                        <span>34 Students</span>
+                    </div>
+
+
+                    <div class="class__item">
+                        <div>
+                            <h4>Form 2 West</h4>
+                            <p>Mathematics</p>
+                        </div>
+
+                        <span>31 Students</span>
+                    </div>
+
+
+                    <div class="class__item">
+                        <div>
+                            <h4>Form 4 North</h4>
+                            <p>Mathematics</p>
+                        </div>
+
+                        <span>31 Students</span>
+                    </div>
+
+                </section>
+
+
+                <!-- TASKS -->
+
+                <section class="panel">
+
+                    <div class="panel__header">
+                        <h3>Pending Tasks</h3>
+                    </div>
+
+
+                    <div class="task__item">
+                        <p class="task__type">
+                            Results
+                        </p>
+
+                        <h4>Enter Form 3 CAT Results</h4>
+
+                        <p>
+                            Mathematics CAT marks are pending submission.
+                        </p>
+                    </div>
+
+
+                    <div class="task__item">
+                        <p class="task__type">
+                            Materials
+                        </p>
+
+                        <h4>Upload Revision Worksheet</h4>
+
+                        <p>
+                            Prepare and upload the next Form 2 revision worksheet.
+                        </p>
+                    </div>
+
+
+                    <div class="task__item">
+                        <p class="task__type">
+                            Academic
+                        </p>
+
+                        <h4>Review Form 4 Performance</h4>
+
+                        <p>
+                            Review the latest class performance before the staff meeting.
+                        </p>
+                    </div>
+
+                </section>
+
+            </div>
+
+
+            <!-- RECENT MATERIALS -->
+
+            <section class="panel recent-materials">
+
+                <div class="panel__header">
+
+                    <h3>Recent Learning Materials</h3>
+
+                    <a href="#">
+                        Manage Materials
+                    </a>
+
+                </div>
+
+
+                <div class="materials__list">
+
+                    <article class="material">
+                        <p class="material__subject">Form 3 Mathematics</p>
+
+                        <h4>Algebra Revision Notes</h4>
+
+                        <p>Uploaded 18 September 2026</p>
+                    </article>
+
+
+                    <article class="material">
+                        <p class="material__subject">Form 2 Mathematics</p>
+
+                        <h4>Geometry Practice Questions</h4>
+
+                        <p>Uploaded 15 September 2026</p>
+                    </article>
+
+
+                    <article class="material">
+                        <p class="material__subject">Form 4 Mathematics</p>
+
+                        <h4>Exam Revision Paper</h4>
+
+                        <p>Uploaded 12 September 2026</p>
+                    </article>
+
+                </div>
+
+            </section>
+
+
+            <!-- RECENT ACTIVITY -->
+
+            <section class="panel">
+
+                <div class="panel__header">
+                    <h3>Recent Activity</h3>
+                </div>
+
+
+                <table class="activity__table">
+
+                    <thead>
+                        <tr>
+                            <th>Activity</th>
+                            <th>Class</th>
+                            <th>Date</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>Uploaded Algebra Revision Notes</td>
+                            <td>Form 3 East</td>
+                            <td>18 Sep 2026</td>
+                            <td>Published</td>
+                        </tr>
+
+                        <tr>
+                            <td>Updated CAT Results</td>
+                            <td>Form 2 West</td>
+                            <td>16 Sep 2026</td>
+                            <td>Completed</td>
+                        </tr>
+
+                        <tr>
+                            <td>Uploaded Geometry Worksheet</td>
+                            <td>Form 2 West</td>
+                            <td>15 Sep 2026</td>
+                            <td>Published</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </section>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
