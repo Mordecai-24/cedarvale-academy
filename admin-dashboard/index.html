@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Admin Dashboard | Cedarvale Academy</title>
+
+    <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+
+    <header class="topbar">
+
+        <div class="topbar__brand">
+            <img
+                src="../assets/logo/logo.png"
+                alt="Cedarvale Academy Logo"
+            >
+
+            <div>
+                <h1>Admin Portal</h1>
+                <p>Cedarvale Academy Management System</p>
+            </div>
+        </div>
+
+        <div class="topbar__actions">
+            <a href="#">Admin Profile</a>
+
+            <a href="../login/index.html" class="logout">
+                Logout
+            </a>
+        </div>
+
+    </header>
+
+
+    <main class="portal">
+
+        <!-- SIDEBAR -->
+
+        <aside class="sidebar">
+
+            <h2>Administration</h2>
+
+            <nav class="sidebar__nav">
+
+                <a href="#" class="sidebar__link sidebar__link--active">
+                    Dashboard
+                </a>
+
+                <a href="#" class="sidebar__link">
+                    Students
+                </a>
+
+                <a href="#" class="sidebar__link">
+                    Teachers
+                </a>
+
+                <a href="#" class="sidebar__link">
+                    Classes & Subjects
+                </a>
+
+                <a href="#" class="sidebar__link">
+                    Results
+                </a>
+
+                <a href="#" class="sidebar__link">
+                    School Fees
+                </a>
+
+                <a href="#" class="sidebar__link">
+                    Learning Materials
+                </a>
+
+                <a href="#" class="sidebar__link">
+                    News & Events
+                </a>
+
+                <a href="#" class="sidebar__link">
+                    User Accounts
+                </a>
+
+                <a href="#" class="sidebar__link">
+                    Reports
+                </a>
+
+                <a href="#" class="sidebar__link">
+                    Settings
+                </a>
+
+            </nav>
+
+        </aside>
+
+
+        <!-- MAIN CONTENT -->
+
+        <section class="dashboard">
+
+            <div class="dashboard__header">
+
+                <div>
+                    <p class="dashboard__label">
+                        Admin Dashboard
+                    </p>
+
+                    <h2>Welcome, School Administrator</h2>
+
+                    <p>
+                        Manage students, teachers, academic records, school fees,
+                        learning resources, announcements and system accounts.
+                    </p>
+                </div>
+
+                <div class="admin__details">
+                    <p><strong>Role:</strong> Super Admin</p>
+                    <p><strong>Academic Year:</strong> 2026</p>
+                    <p><strong>Current Term:</strong> Term 3</p>
+                </div>
+
+            </div>
+
+
+            <!-- SUMMARY CARDS -->
+
+            <div class="dashboard__cards">
+
+                <article class="dashboard__card">
+                    <p>Total Students</p>
+                    <h3>426</h3>
+                    <span>Active students</span>
+                </article>
+
+                <article class="dashboard__card">
+                    <p>Total Teachers</p>
+                    <h3>28</h3>
+                    <span>Teaching staff</span>
+                </article>
+
+                <article class="dashboard__card">
+                    <p>Classes</p>
+                    <h3>16</h3>
+                    <span>Active class groups</span>
+                </article>
+
+                <article class="dashboard__card">
+                    <p>Outstanding Fees</p>
+                    <h3>KSh 1.2M</h3>
+                    <span>Across student accounts</span>
+                </article>
+
+            </div>
+
+
+            <!-- MANAGEMENT SHORTCUTS -->
+
+            <section class="panel">
+
+                <div class="panel__header">
+                    <h3>Quick Management</h3>
+                </div>
+
+
+                <div class="management__grid">
+
+                    <article class="management__card">
+                        <h4>Students</h4>
+
+                        <p>
+                            Add students, update records, assign classes and
+                            manage student accounts.
+                        </p>
+
+                        <a href="#">Manage Students</a>
+                    </article>
+
+
+                    <article class="management__card">
+                        <h4>Teachers</h4>
+
+                        <p>
+                            Add teaching staff, assign subjects and manage
+                            teacher information.
+                        </p>
+
+                        <a href="#">Manage Teachers</a>
+                    </article>
+
+
+                    <article class="management__card">
+                        <h4>Results</h4>
+
+                        <p>
+                            View academic results, monitor submissions and
+                            make authorised corrections.
+                        </p>
+
+                        <a href="#">Manage Results</a>
+                    </article>
+
+
+                    <article class="management__card">
+                        <h4>School Fees</h4>
+
+                        <p>
+                            Review student fee balances, payments and financial
+                            account records.
+                        </p>
+
+                        <a href="#">Manage Fees</a>
+                    </article>
+
+
+                    <article class="management__card">
+                        <h4>Learning Materials</h4>
+
+                        <p>
+                            Review and manage learning resources uploaded for
+                            students.
+                        </p>
+
+                        <a href="#">Manage Materials</a>
+                    </article>
+
+
+                    <article class="management__card">
+                        <h4>News & Events</h4>
+
+                        <p>
+                            Publish school announcements, events and important
+                            updates.
+                        </p>
+
+                        <a href="#">Manage News</a>
+                    </article>
+
+                </div>
+
+            </section>
+
+
+            <!-- TWO COLUMN AREA -->
+
+            <div class="dashboard__grid">
+
+                <!-- RECENT ACTIVITY -->
+
+                <section class="panel">
+
+                    <div class="panel__header">
+                        <h3>Recent Activity</h3>
+
+                        <a href="#">View All</a>
+                    </div>
+
+
+                    <div class="activity__item">
+
+                        <div>
+                            <h4>New Student Registered</h4>
+
+                            <p>
+                                Faith Njeri was added to Form 2 East.
+                            </p>
+                        </div>
+
+                        <span>Today</span>
+
+                    </div>
+
+
+                    <div class="activity__item">
+
+                        <div>
+                            <h4>Results Published</h4>
+
+                            <p>
+                                Form 3 Mathematics CAT results were published.
+                            </p>
+                        </div>
+
+                        <span>Today</span>
+
+                    </div>
+
+
+                    <div class="activity__item">
+
+                        <div>
+                            <h4>Payment Recorded</h4>
+
+                            <p>
+                                KSh 20,000 payment recorded for Kevin Otieno.
+                            </p>
+                        </div>
+
+                        <span>Yesterday</span>
+
+                    </div>
+
+
+                    <div class="activity__item">
+
+                        <div>
+                            <h4>Learning Material Uploaded</h4>
+
+                            <p>
+                                Algebra Revision Notes added for Form 3.
+                            </p>
+                        </div>
+
+                        <span>2 days ago</span>
+
+                    </div>
+
+                </section>
+
+
+                <!-- SYSTEM OVERVIEW -->
+
+                <section class="panel">
+
+                    <div class="panel__header">
+                        <h3>System Overview</h3>
+                    </div>
+
+
+                    <div class="overview__item">
+
+                        <div>
+                            <p>Active Student Accounts</p>
+                            <strong>418</strong>
+                        </div>
+
+                        <span>426 total</span>
+
+                    </div>
+
+
+                    <div class="overview__item">
+
+                        <div>
+                            <p>Teacher Accounts</p>
+                            <strong>28</strong>
+                        </div>
+
+                        <span>All active</span>
+
+                    </div>
+
+
+                    <div class="overview__item">
+
+                        <div>
+                            <p>Published Learning Materials</p>
+                            <strong>146</strong>
+                        </div>
+
+                        <span>Across all classes</span>
+
+                    </div>
+
+
+                    <div class="overview__item">
+
+                        <div>
+                            <p>Current News & Events</p>
+                            <strong>12</strong>
+                        </div>
+
+                        <span>Published items</span>
+
+                    </div>
+
+                </section>
+
+            </div>
+
+
+            <!-- RECENT STUDENTS TABLE -->
+
+            <section class="panel">
+
+                <div class="panel__header">
+
+                    <h3>Recently Added Students</h3>
+
+                    <a href="#">
+                        View Students
+                    </a>
+
+                </div>
+
+
+                <table class="students__table">
+
+                    <thead>
+
+                        <tr>
+                            <th>Admission No.</th>
+                            <th>Student</th>
+                            <th>Class</th>
+                            <th>Guardian</th>
+                            <th>Status</th>
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+                        <tr>
+                            <td>CDA/2026/184</td>
+                            <td>Faith Njeri</td>
+                            <td>Form 2 East</td>
+                            <td>Mary Njeri</td>
+                            <td>
+                                <span class="status status--active">
+                                    Active
+                                </span>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>CDA/2026/183</td>
+                            <td>Brian Kiptoo</td>
+                            <td>Form 1 West</td>
+                            <td>David Kiptoo</td>
+                            <td>
+                                <span class="status status--active">
+                                    Active
+                                </span>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>CDA/2026/182</td>
+                            <td>Sharon Achieng</td>
+                            <td>Form 3 North</td>
+                            <td>Peter Ochieng</td>
+                            <td>
+                                <span class="status status--active">
+                                    Active
+                                </span>
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </section>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
