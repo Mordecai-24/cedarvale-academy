@@ -1,0 +1,595 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-dark: #000000;
+  --color-gold: #e3a81d;
+  --color-blue: #3e5681;
+  --color-light: #fefcfd;
+  --color-white: #ffffff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: var(--color-dark);
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 12px 5%;
+
+  background-color: var(--color-white);
+}
+
+.logo img {
+  width: 80px;
+  display: block;
+}
+
+/* NAVIGATION */
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  list-style: none;
+}
+
+ul li {
+  margin: 0;
+}
+
+ul li a {
+  text-decoration: none;
+  color: var(--color-dark);
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+ul li a:hover {
+  color: var(--color-blue);
+}
+
+/* HEADER BUTTON */
+
+.headerbutton button {
+  padding: 12px 22px;
+
+  background-color: var(--color-gold);
+  color: var(--color-white);
+
+  border: none;
+  border-radius: 6px;
+
+  font-weight: 600;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.headerbutton button:hover {
+  background-color: var(--color-blue);
+}
+
+/* HERO */
+
+.hero {
+  min-height: 80vh;
+
+  display: flex;
+  align-items: center;
+
+  padding: 60px 5%;
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.75)),
+    url("../assets/images/image\ 4.jpg");
+
+  background-size: cover;
+  background-position: center;
+
+  color: var(--color-light);
+}
+
+.hero__content {
+  width: 100%;
+  max-width: 650px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.hero__cta {
+  display: flex;
+  gap: 15px;
+}
+
+.hero__cta button {
+  padding: 13px 24px;
+
+  border: none;
+  border-radius: 6px;
+
+  font-size: 16px;
+  cursor: pointer;
+
+  background-color: var(--color-gold);
+  color: var(--color-white);
+}
+
+.hero__cta .secondary-btn {
+  background-color: transparent;
+  border: 2px solid var(--color-white);
+}
+.about {
+  padding: 100px 5%;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  background-color: var(--color-light);
+}
+
+.about__left {
+  flex: 1;
+}
+
+.about__right {
+  flex: 1;
+}
+
+.about__label {
+  color: var(--color-gold);
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.about__left h2 {
+  color: var(--color-blue);
+  font-size: 30px;
+  line-height: 1;
+  margin-bottom: 25px;
+}
+
+.about__description {
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 18px;
+  color: #555;
+}
+
+.about__values {
+  margin-top: 30px;
+}
+
+.about__values p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.about__values strong {
+  color: var(--color-blue);
+}
+
+.about__right img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+.why_choose {
+  padding: 100px 5%;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  background-color: lightgray;
+}
+.cards {
+  display: flex;
+  gap: 30px;
+}
+.why__card {
+  background-color: var(--color-blue);
+  padding: 2%;
+  box-shadow: #555;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.why__card p {
+  margin: 8px;
+}
+
+.why_choose {
+  padding: 100px 5%;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.why_choose h2 {
+  font-size: 40px;
+  color: var(--color-blue);
+  margin-bottom: 15px;
+}
+
+.why_choose__description {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto 50px;
+  line-height: 1.7;
+  color: #555;
+}
+
+.cards {
+  display: flex;
+  gap: 25px;
+}
+
+.why__card {
+  flex: 1;
+  background-color: var(--color-blue);
+  padding: 30px;
+  border-radius: 8px;
+  color: #ffffff;
+  text-align: left;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.why__card h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.why__card p {
+  line-height: 1.6;
+}
+
+.academics {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 100px 5%;
+}
+
+.academics__label {
+  color: var(--color-gold);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.academics h2 {
+  color: var(--color-blue);
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.academics__description {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.7;
+  color: #555;
+}
+
+.academics__cards {
+  display: flex;
+  gap: 25px;
+  margin-top: 50px;
+}
+
+.academics__card {
+  flex: 1;
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: left;
+  border-radius: 8px;
+}
+
+.academics__card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.academics__card h3 {
+  color: var(--color-blue);
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.academics__card p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.admissions {
+  text-align: center;
+  padding: 100px 5%;
+  background-color: var(--color-light);
+}
+
+.admissions__label {
+  color: var(--color-gold);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.admissions h2 {
+  color: var(--color-blue);
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.admissions__description {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.7;
+  color: #555;
+}
+
+.admissions__process {
+  display: flex;
+  gap: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.admissions__step {
+  flex: 1;
+  text-align: left;
+  padding: 30px 0;
+  border-top: 3px solid var(--color-gold);
+}
+
+.admissions__step span {
+  display: block;
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--color-gold);
+  margin-bottom: 20px;
+}
+
+.admissions__step h3 {
+  color: var(--color-blue);
+  font-size: 21px;
+  margin-bottom: 12px;
+}
+
+.admissions__step p {
+  line-height: 1.6;
+  color: #555;
+}
+
+.admissions__cta {
+  background-color: var(--color-blue);
+  padding: 60px;
+  color: var(--color-white);
+  border-radius: 8px;
+}
+
+.admissions__cta h2 {
+  color: var(--color-white);
+  margin-bottom: 15px;
+}
+
+.admissions__cta p {
+  max-width: 600px;
+  margin: 0 auto 25px;
+  line-height: 1.6;
+}
+
+.admissions__cta button {
+  padding: 12px 24px;
+  color: var(--color-blue);
+  background-color: var(--color-gold);
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.news {
+    text-align: center;
+    padding: 100px 5%;
+    background-color: var(--color-white);
+}
+
+.news__label {
+    color: var(--color-gold);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.news h2 {
+    color: var(--color-blue);
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.news__description {
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.7;
+    color: #555;
+}
+
+.news__cards {
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.news__card {
+    flex: 1;
+    text-align: left;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.news__image img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    display: block;
+}
+
+.news__info {
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.news__date {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--color-gold);
+    margin-bottom: 12px;
+}
+
+.news__info h3 {
+    color: var(--color-blue);
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.news__info p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.news__info a {
+    margin-top: auto;
+
+    color: var(--color-blue);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.news__info a:hover {
+    color: var(--color-gold);
+}
+
+.footer {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    padding: 70px 5% 0;
+}
+
+.footer__top {
+    display: flex;
+    gap: 60px;
+    padding-bottom: 50px;
+}
+
+.footer__about {
+    flex: 2;
+}
+
+.footer__quicklinks,
+.footer__schoollinks,
+.footer__contact {
+    flex: 1;
+}
+
+.footer__heading {
+    color: var(--color-white);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer__about p {
+    color: #dddddd;
+    line-height: 1.7;
+    max-width: 350px;
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style: none;
+}
+
+.footer__nav li {
+    margin: 0;
+}
+
+.footer__nav a {
+    color: #dddddd;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer__nav a:hover {
+    color: var(--color-gold);
+}
+
+.footer__contact address {
+    font-style: normal;
+}
+
+.footer__contact p {
+    color: #dddddd;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.footer__bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer__bottom p {
+    color: #cccccc;
+    font-size: 14px;
+}
+.headerbutton a {
+    display: inline-block;
+    padding: 12px 22px;
+
+    background-color: var(--color-gold);
+    color: var(--color-white);
+
+    text-decoration: none;
+    font-weight: 600;
+
+    border-radius: 6px;
+
+    transition: 0.3s;
+}
+
+.headerbutton a:hover {
+    background-color: var(--color-blue);
+}
