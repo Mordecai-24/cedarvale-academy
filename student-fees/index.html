@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>School Fees | Cedarvale Academy</title>
+
+    <link rel="stylesheet" href="fees.css">
+</head>
+
+<body>
+
+    <header class="topbar">
+
+        <div class="topbar__brand">
+            <img
+                src="../assets/logo/logo.png"
+                alt="Cedarvale Academy Logo"
+            >
+
+            <div>
+                <h1>Student Portal</h1>
+                <p>Welcome back, Kevin</p>
+            </div>
+        </div>
+
+        <div class="topbar__actions">
+            <a href="../student-dashboard/index.html">Dashboard</a>
+
+            <a href="../login/index.html" class="logout">
+                Logout
+            </a>
+        </div>
+
+    </header>
+
+
+    <main class="portal">
+
+        <!-- SIDEBAR -->
+
+        <aside class="sidebar">
+
+            <h2>Student Menu</h2>
+
+            <nav class="sidebar__nav">
+
+                <a href="../student-dashboard/index.html" class="sidebar__link">
+                    Dashboard
+                </a>
+
+                <a href="../student-results/index.html" class="sidebar__link">
+                    My Results
+                </a>
+
+                <a href="#" class="sidebar__link sidebar__link--active">
+                    School Fees
+                </a>
+
+                <a href="../learning-materials/index.html" class="sidebar__link">
+                    Learning Materials
+                </a>
+
+                <a href="../news/index.html" class="sidebar__link">
+                    News & Events
+                </a>
+
+                <a href="#" class="sidebar__link">
+                    My Profile
+                </a>
+
+            </nav>
+
+        </aside>
+
+
+        <!-- MAIN CONTENT -->
+
+        <section class="fees">
+
+            <div class="fees__header">
+
+                <div>
+                    <p class="fees__label">
+                        Financial Information
+                    </p>
+
+                    <h2>School Fees</h2>
+
+                    <p>
+                        View your current fee balance and recent payment history.
+                    </p>
+                </div>
+
+                <div class="student__details">
+                    <p><strong>Student:</strong> Kevin Otieno</p>
+                    <p><strong>Admission No:</strong> CDA/2026/103</p>
+                    <p><strong>Class:</strong> Form 3</p>
+                    <p><strong>Term:</strong> Term 3</p>
+                </div>
+
+            </div>
+
+
+            <!-- FEE SUMMARY -->
+
+            <div class="fees__summary">
+
+                <article class="fee__card">
+
+                    <p>Total Term Fees</p>
+
+                    <h3>KSh 45,000</h3>
+
+                    <span>Term 3, 2026</span>
+
+                </article>
+
+
+                <article class="fee__card">
+
+                    <p>Amount Paid</p>
+
+                    <h3>KSh 32,500</h3>
+
+                    <span>Payments received</span>
+
+                </article>
+
+
+                <article class="fee__card fee__card--balance">
+
+                    <p>Outstanding Balance</p>
+
+                    <h3>KSh 12,500</h3>
+
+                    <span>Amount remaining</span>
+
+                </article>
+
+            </div>
+
+
+            <!-- PAYMENT PROGRESS -->
+
+            <section class="fees__progress">
+
+                <div class="progress__header">
+
+                    <div>
+                        <h3>Fee Payment Progress</h3>
+
+                        <p>
+                            You have paid 72% of your Term 3 school fees.
+                        </p>
+                    </div>
+
+                    <strong>72%</strong>
+
+                </div>
+
+
+                <div class="progress__bar">
+
+                    <div class="progress__value"></div>
+
+                </div>
+
+            </section>
+
+
+            <!-- PAYMENT HISTORY -->
+
+            <section class="fees__panel">
+
+                <div class="panel__header">
+
+                    <div>
+                        <h3>Payment History</h3>
+
+                        <p>
+                            Recent payments recorded on your school account.
+                        </p>
+                    </div>
+
+                    <span class="fees__status">
+                        Balance Due
+                    </span>
+
+                </div>
+
+
+                <table class="fees__table">
+
+                    <thead>
+
+                        <tr>
+                            <th>Date</th>
+                            <th>Description</th>
+                            <th>Reference</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+                        <tr>
+                            <td>5 Sep 2026</td>
+
+                            <td>Term 3 Fee Payment</td>
+
+                            <td>PAY-20381</td>
+
+                            <td>KSh 20,000</td>
+
+                            <td>
+                                <span class="payment__status">
+                                    Paid
+                                </span>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>17 Sep 2026</td>
+
+                            <td>Term 3 Fee Payment</td>
+
+                            <td>PAY-20467</td>
+
+                            <td>KSh 10,000</td>
+
+                            <td>
+                                <span class="payment__status">
+                                    Paid
+                                </span>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>23 Sep 2026</td>
+
+                            <td>Activity Fee</td>
+
+                            <td>PAY-20512</td>
+
+                            <td>KSh 2,500</td>
+
+                            <td>
+                                <span class="payment__status">
+                                    Paid
+                                </span>
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </section>
+
+
+            <!-- NOTE -->
+
+            <section class="fees__notice">
+
+                <h3>Fee Information</h3>
+
+                <p>
+                    The outstanding balance for Kevin Otieno is KSh 12,500.
+                    For questions regarding your fee statement or recorded
+                    payments, please contact the school accounts office.
+                </p>
+
+            </section>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
