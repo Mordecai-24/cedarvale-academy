@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Results | Cedarvale Academy</title>
+
+    <link rel="stylesheet" href="results.css">
+</head>
+
+<body>
+
+    <header class="topbar">
+
+        <div class="topbar__brand">
+            <img
+                src="../assets/logo/logo.png"
+                alt="Cedarvale Academy Logo"
+            >
+
+            <div>
+                <h1>Student Portal</h1>
+                <p>Welcome back, Kevin</p>
+            </div>
+        </div>
+
+        <div class="topbar__actions">
+            <a href="../student-dashboard/index.html">Dashboard</a>
+            <a href="../login/index.html" class="logout">Logout</a>
+        </div>
+
+    </header>
+
+
+    <main class="portal">
+
+        <!-- SIDEBAR -->
+
+        <aside class="sidebar">
+
+            <h2>Student Menu</h2>
+
+            <nav class="sidebar__nav">
+
+                <a href="../student-dashboard/index.html" class="sidebar__link">
+                    Dashboard
+                </a>
+
+                <a href="#" class="sidebar__link sidebar__link--active">
+                    My Results
+                </a>
+
+                <a href="../student-fees/index.html" class="sidebar__link">
+                    School Fees
+                </a>
+
+                <a href="../learning-materials/index.html" class="sidebar__link">
+                    Learning Materials
+                </a>
+
+                <a href="../news/index.html" class="sidebar__link">
+                    News & Events
+                </a>
+
+                <a href="#" class="sidebar__link">
+                    My Profile
+                </a>
+
+            </nav>
+
+        </aside>
+
+
+        <!-- MAIN CONTENT -->
+
+        <section class="results">
+
+            <div class="results__header">
+
+                <div>
+                    <p class="results__label">Academic Results</p>
+
+                    <h2>My Results</h2>
+
+                    <p>
+                        View your current academic performance and subject grades.
+                    </p>
+                </div>
+
+                <div class="student__details">
+                    <p><strong>Student:</strong> Kevin Otieno</p>
+                    <p><strong>Admission No:</strong> CDA/2026/103</p>
+                    <p><strong>Class:</strong> Form 3</p>
+                    <p><strong>Term:</strong> Term 3</p>
+                </div>
+
+            </div>
+
+
+            <!-- SUMMARY -->
+
+            <div class="results__summary">
+
+                <div class="summary__item">
+                    <p>Overall Average</p>
+                    <h3>78%</h3>
+                </div>
+
+                <div class="summary__item">
+                    <p>Overall Grade</p>
+                    <h3>B+</h3>
+                </div>
+
+                <div class="summary__item">
+                    <p>Subjects</p>
+                    <h3>8</h3>
+                </div>
+
+                <div class="summary__item">
+                    <p>Best Subject</p>
+                    <h3>Mathematics</h3>
+                </div>
+
+            </div>
+
+
+            <!-- RESULTS TABLE -->
+
+            <section class="results__panel">
+
+                <div class="panel__header">
+
+                    <div>
+                        <h3>Term 3 Results</h3>
+                        <p>Academic Year 2026</p>
+                    </div>
+
+                    <span class="results__status">
+                        Published
+                    </span>
+
+                </div>
+
+
+                <table class="results__table">
+
+                    <thead>
+                        <tr>
+                            <th>Subject</th>
+                            <th>CAT</th>
+                            <th>Exam</th>
+                            <th>Total</th>
+                            <th>Grade</th>
+                            <th>Remarks</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>Mathematics</td>
+                            <td>24</td>
+                            <td>63</td>
+                            <td>87</td>
+                            <td>A</td>
+                            <td>Excellent</td>
+                        </tr>
+
+                        <tr>
+                            <td>English</td>
+                            <td>21</td>
+                            <td>56</td>
+                            <td>77</td>
+                            <td>B+</td>
+                            <td>Very Good</td>
+                        </tr>
+
+                        <tr>
+                            <td>Biology</td>
+                            <td>22</td>
+                            <td>58</td>
+                            <td>80</td>
+                            <td>A-</td>
+                            <td>Very Good</td>
+                        </tr>
+
+                        <tr>
+                            <td>Chemistry</td>
+                            <td>18</td>
+                            <td>52</td>
+                            <td>70</td>
+                            <td>B</td>
+                            <td>Good</td>
+                        </tr>
+
+                        <tr>
+                            <td>Physics</td>
+                            <td>20</td>
+                            <td>54</td>
+                            <td>74</td>
+                            <td>B+</td>
+                            <td>Good</td>
+                        </tr>
+
+                        <tr>
+                            <td>Geography</td>
+                            <td>23</td>
+                            <td>55</td>
+                            <td>78</td>
+                            <td>B+</td>
+                            <td>Very Good</td>
+                        </tr>
+
+                        <tr>
+                            <td>History</td>
+                            <td>19</td>
+                            <td>53</td>
+                            <td>72</td>
+                            <td>B</td>
+                            <td>Good</td>
+                        </tr>
+
+                        <tr>
+                            <td>Computer Studies</td>
+                            <td>25</td>
+                            <td>59</td>
+                            <td>84</td>
+                            <td>A-</td>
+                            <td>Excellent</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </section>
+
+
+            <!-- TEACHER COMMENT -->
+
+            <section class="results__comment">
+
+                <h3>Class Teacher's Comment</h3>
+
+                <p>
+                    Kevin has shown consistent academic progress this term.
+                    He should continue working hard, particularly in Chemistry
+                    and History, while maintaining his strong performance in
+                    Mathematics and Computer Studies.
+                </p>
+
+            </section>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
