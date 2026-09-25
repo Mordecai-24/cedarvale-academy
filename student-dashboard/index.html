@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Dashboard | Cedarvale Academy</title>
+
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+
+    <header class="topbar">
+
+        <div class="topbar__brand">
+            <img
+                src="../assets/logo/logo.png"
+                alt="Cedarvale Academy Logo"
+            >
+
+            <div>
+                <h1>Student Portal</h1>
+                <p>Welcome back, Kevin</p>
+            </div>
+        </div>
+
+
+        <div class="topbar__actions">
+            <a href="#">Profile</a>
+            <a href="../login/index.html" class="logout">
+                Logout
+            </a>
+        </div>
+
+    </header>
+
+
+    <main class="dashboard">
+
+        <!-- SIDEBAR -->
+
+        <aside class="sidebar">
+
+            <h2>Student Menu</h2>
+
+            <nav class="sidebar__nav">
+
+                <a href="#" class="sidebar__link sidebar__link--active">
+                    Dashboard
+                </a>
+
+                <a href="../student-results/index.html" class="sidebar__link">
+                    My Results
+                </a>
+
+                <a href="../student-fees/index.html" class="sidebar__link">
+                    School Fees
+                </a>
+
+                <a href="../learning-materials/index.html" class="sidebar__link">
+                    Learning Materials
+                </a>
+
+                <a href="../news/index.html" class="sidebar__link">
+                    News & Events
+                </a>
+
+                <a href="#" class="sidebar__link">
+                    My Profile
+                </a>
+
+            </nav>
+
+        </aside>
+
+
+        <!-- MAIN CONTENT -->
+
+        <section class="dashboard__content">
+
+            <div class="dashboard__welcome">
+
+                <div>
+                    <p class="dashboard__label">
+                        Student Dashboard
+                    </p>
+
+                    <h2>
+                        Welcome back, Kevin Otieno
+                    </h2>
+
+                    <p>
+                        View your academic results, fee balance,
+                        learning materials and the latest school updates.
+                    </p>
+                </div>
+
+                <div class="student__info">
+                    <p><strong>Admission No:</strong> CDA/2026/103</p>
+                    <p><strong>Class:</strong> Form 3</p>
+                    <p><strong>Term:</strong> Term 3</p>
+                </div>
+
+            </div>
+
+
+            <!-- SUMMARY CARDS -->
+
+            <div class="dashboard__cards">
+
+                <article class="dashboard__card">
+
+                    <p class="dashboard__card-label">
+                        Current Average
+                    </p>
+
+                    <h3>78%</h3>
+
+                    <p>
+                        Overall academic performance
+                    </p>
+
+                </article>
+
+
+                <article class="dashboard__card">
+
+                    <p class="dashboard__card-label">
+                        Fee Balance
+                    </p>
+
+                    <h3>KSh 12,500</h3>
+
+                    <p>
+                        Outstanding school fees
+                    </p>
+
+                </article>
+
+
+                <article class="dashboard__card">
+
+                    <p class="dashboard__card-label">
+                        Learning Materials
+                    </p>
+
+                    <h3>18</h3>
+
+                    <p>
+                        Available revision resources
+                    </p>
+
+                </article>
+
+
+                <article class="dashboard__card">
+
+                    <p class="dashboard__card-label">
+                        Upcoming Events
+                    </p>
+
+                    <h3>3</h3>
+
+                    <p>
+                        School events this month
+                    </p>
+
+                </article>
+
+            </div>
+
+
+            <!-- TWO COLUMN AREA -->
+
+            <div class="dashboard__grid">
+
+                <!-- RESULTS PREVIEW -->
+
+                <section class="panel">
+
+                    <div class="panel__header">
+                        <h3>Recent Results</h3>
+
+                        <a href="../student-results/index.html">
+                            View All
+                        </a>
+                    </div>
+
+
+                    <table class="results-table">
+
+                        <thead>
+                            <tr>
+                                <th>Subject</th>
+                                <th>Score</th>
+                                <th>Grade</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td>Mathematics</td>
+                                <td>82%</td>
+                                <td>A-</td>
+                            </tr>
+
+                            <tr>
+                                <td>English</td>
+                                <td>76%</td>
+                                <td>B+</td>
+                            </tr>
+
+                            <tr>
+                                <td>Biology</td>
+                                <td>80%</td>
+                                <td>A-</td>
+                            </tr>
+
+                            <tr>
+                                <td>Chemistry</td>
+                                <td>72%</td>
+                                <td>B</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </section>
+
+
+                <!-- ANNOUNCEMENTS -->
+
+                <section class="panel">
+
+                    <div class="panel__header">
+                        <h3>Latest Announcements</h3>
+
+                        <a href="../news/index.html">
+                            View All
+                        </a>
+                    </div>
+
+
+                    <div class="announcement">
+
+                        <p class="announcement__date">
+                            18 October 2026
+                        </p>
+
+                        <h4>Annual Sports Day</h4>
+
+                        <p>
+                            Students are reminded to prepare for the upcoming
+                            annual sports day.
+                        </p>
+
+                    </div>
+
+
+                    <div class="announcement">
+
+                        <p class="announcement__date">
+                            2 November 2026
+                        </p>
+
+                        <h4>Parents Meeting</h4>
+
+                        <p>
+                            Parents and guardians are invited for the
+                            Term 3 progress meeting.
+                        </p>
+
+                    </div>
+
+
+                    <div class="announcement">
+
+                        <p class="announcement__date">
+                            25 November 2026
+                        </p>
+
+                        <h4>End-Term Examinations</h4>
+
+                        <p>
+                            End-term examinations begin on
+                            25 November 2026.
+                        </p>
+
+                    </div>
+
+                </section>
+
+            </div>
+
+
+            <!-- MATERIALS -->
+
+            <section class="panel materials">
+
+                <div class="panel__header">
+
+                    <h3>Recent Learning Materials</h3>
+
+                    <a href="../learning-materials/index.html">
+                        View Materials
+                    </a>
+
+                </div>
+
+
+                <div class="materials__list">
+
+                    <div class="material">
+                        <p class="material__subject">
+                            Mathematics
+                        </p>
+
+                        <h4>Algebra Revision Notes</h4>
+
+                        <p>PDF Document</p>
+                    </div>
+
+
+                    <div class="material">
+                        <p class="material__subject">
+                            Biology
+                        </p>
+
+                        <h4>Human Reproduction Notes</h4>
+
+                        <p>PDF Document</p>
+                    </div>
+
+
+                    <div class="material">
+                        <p class="material__subject">
+                            Chemistry
+                        </p>
+
+                        <h4>Organic Chemistry Worksheet</h4>
+
+                        <p>PDF Document</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
